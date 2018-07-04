@@ -1,5 +1,5 @@
-FROM hub.mooc.com:8080/micro-service/python-base:latest
-MAINTAINER xxx xxx@imooc.com
+FROM keithtt/python-base:latest
+MAINTAINER KeithTt
 
 ENV PYTHONPATH /
 COPY message /message

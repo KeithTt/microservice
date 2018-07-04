@@ -1,5 +1,5 @@
-FROM hub.mooc.com:8080/micro-service/openjdk:7-jre
-MAINTAINER xxx xxx@imooc.com
+FROM openjdk:7-jre
+MAINTAINER KeithTt
 
 COPY target/course-dubbo-service-1.0-SNAPSHOT.jar /course-service.jar
 

@@ -55,7 +55,6 @@ services:
       - "8081:8081"
     depends_on:
       - user-edge-service
-
   api-gateway:
     image: hub.mooc.com:8080/micro-service/api-gateway-zuul:latest
     deploy:

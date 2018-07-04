@@ -51,7 +51,9 @@
 - 发送短信
 
 # 用户edgeservice
+
 # 课程edgeservice
+
 # API GATEWAY
 
 - 定义监听端口
@@ -63,10 +65,9 @@ pfactory = TBinaryProtocol.TBinaryProtocolFactory()
 - 创建server
 server = TServer.TSimpleServer(processor, transport, tfactory, pfactory)
 
+# Mac上安装thrift
 sudo pip2 install thrift --upgrade --ignore-installed six
 
-Cannot uninstall 'six'. It is a distutils installed project and thus we cannot 
-accurately determine which files belong to it which would lead to only a partial uninstall.
-
 https://maven.apache.org/plugins/maven-compiler-plugin/usage.html
+
 https://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-source-and-target.html

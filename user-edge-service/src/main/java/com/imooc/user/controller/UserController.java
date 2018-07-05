@@ -74,7 +74,7 @@ public class UserController {
                                    @RequestParam(value="email", required = false) String email) {
 
         String message = "Verify code is:";
-        String code = randomCode("0123456789", 6);
+        String code = randomCode("0123456789",6);
         try {
 
             boolean result = false;
@@ -153,7 +153,7 @@ public class UserController {
     }
 
     private String genToken() {
-        return randomCode("0123456789abcdefghijklmnopqrstuvwxyz", 32);
+        return randomCode("0123456789abcdefghijklmnopqrstuvwxyz",32);
     }
 
     private String randomCode(String s, int size) {

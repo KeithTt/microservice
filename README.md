@@ -66,8 +66,40 @@ pfactory = TBinaryProtocol.TBinaryProtocolFactory()
 server = TServer.TSimpleServer(processor, transport, tfactory, pfactory)
 
 # Mac上安装thrift
+```
 sudo pip2 install thrift --upgrade --ignore-installed six
+```
 
 https://maven.apache.org/plugins/maven-compiler-plugin/usage.html
 
 https://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-source-and-target.html
+
+运行数据库
+```
+docker run -d --name mysql -v ${cur_dir}/conf:/etc/mysql/conf.d -v ${cur_dir}/data:/var/lib/mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=aA111111 --restart always mysql:5.7
+```
+
+```
+cat conf/my.cnf
+[mysqld]
+character-set-server=utf8mb4
+[client]
+default-character-set=utf8mb4
+[mysql]
+default-character-set=utf8mb4
+```
+
+运行redis
+```
+docker run -d --name redis -p 6379:6379 -v `pwd`/data:/data -v `pwd`/redis.conf:/etc/redis/redis_default.conf --restart always hub.c.163.com/public/redis:2.8.4
+```
+
+运行zookeeper
+```
+docker run -d --name zookeeper -p 2181:2181 --restart always zookeeper:3.5
+```
+
+查看jar包内容
+```
+jar -tf xx.jar
+```

@@ -6,9 +6,9 @@
 #  options string: py
 #
 
-from thrift.Thrift import TType, TMessageType, TFrozenDict, TException, TApplicationException
-from thrift.protocol.TProtocol import TProtocolException
-import sys
+# from thrift.Thrift import TType, TMessageType, TFrozenDict, TException, TApplicationException
+# from thrift.protocol.TProtocol import TProtocolException
+# import sys
 import logging
 from .ttypes import *
 from thrift.Thrift import TProcessor
@@ -167,6 +167,7 @@ class Processor(Iface, TProcessor):
         oprot.writeMessageEnd()
         oprot.trans.flush()
 
+
 # HELPER FUNCTIONS AND STRUCTURES
 
 
@@ -179,16 +180,17 @@ class sendMobileMessage_args(object):
 
     thrift_spec = (
         None,  # 0
-        (1, TType.STRING, 'mobile', 'UTF8', None, ),  # 1
-        (2, TType.STRING, 'message', 'UTF8', None, ),  # 2
+        (1, TType.STRING, 'mobile', 'UTF8', None,),  # 1
+        (2, TType.STRING, 'message', 'UTF8', None,),  # 2
     )
 
-    def __init__(self, mobile=None, message=None,):
+    def __init__(self, mobile=None, message=None, ):
         self.mobile = mobile
         self.message = message
 
     def read(self, iprot):
-        if iprot._fast_decode is not None and isinstance(iprot.trans, TTransport.CReadableTransport) and self.thrift_spec is not None:
+        if iprot._fast_decode is not None and isinstance(iprot.trans,
+                                                         TTransport.CReadableTransport) and self.thrift_spec is not None:
             iprot._fast_decode(self, iprot, (self.__class__, self.thrift_spec))
             return
         iprot.readStructBegin()
@@ -203,7 +205,8 @@ class sendMobileMessage_args(object):
                     iprot.skip(ftype)
             elif fid == 2:
                 if ftype == TType.STRING:
-                    self.message = iprot.readString().decode('utf-8') if sys.version_info[0] == 2 else iprot.readString()
+                    self.message = iprot.readString().decode('utf-8') if sys.version_info[
+                                                                             0] == 2 else iprot.readString()
                 else:
                     iprot.skip(ftype)
             else:
@@ -249,14 +252,15 @@ class sendMobileMessage_result(object):
     """
 
     thrift_spec = (
-        (0, TType.BOOL, 'success', None, None, ),  # 0
+        (0, TType.BOOL, 'success', None, None,),  # 0
     )
 
-    def __init__(self, success=None,):
+    def __init__(self, success=None, ):
         self.success = success
 
     def read(self, iprot):
-        if iprot._fast_decode is not None and isinstance(iprot.trans, TTransport.CReadableTransport) and self.thrift_spec is not None:
+        if iprot._fast_decode is not None and isinstance(iprot.trans,
+                                                         TTransport.CReadableTransport) and self.thrift_spec is not None:
             iprot._fast_decode(self, iprot, (self.__class__, self.thrift_spec))
             return
         iprot.readStructBegin()
@@ -310,16 +314,17 @@ class sendEmailMessage_args(object):
 
     thrift_spec = (
         None,  # 0
-        (1, TType.STRING, 'email', 'UTF8', None, ),  # 1
-        (2, TType.STRING, 'message', 'UTF8', None, ),  # 2
+        (1, TType.STRING, 'email', 'UTF8', None,),  # 1
+        (2, TType.STRING, 'message', 'UTF8', None,),  # 2
     )
 
-    def __init__(self, email=None, message=None,):
+    def __init__(self, email=None, message=None, ):
         self.email = email
         self.message = message
 
     def read(self, iprot):
-        if iprot._fast_decode is not None and isinstance(iprot.trans, TTransport.CReadableTransport) and self.thrift_spec is not None:
+        if iprot._fast_decode is not None and isinstance(iprot.trans,
+                                                         TTransport.CReadableTransport) and self.thrift_spec is not None:
             iprot._fast_decode(self, iprot, (self.__class__, self.thrift_spec))
             return
         iprot.readStructBegin()
@@ -334,7 +339,8 @@ class sendEmailMessage_args(object):
                     iprot.skip(ftype)
             elif fid == 2:
                 if ftype == TType.STRING:
-                    self.message = iprot.readString().decode('utf-8') if sys.version_info[0] == 2 else iprot.readString()
+                    self.message = iprot.readString().decode('utf-8') if sys.version_info[
+                                                                             0] == 2 else iprot.readString()
                 else:
                     iprot.skip(ftype)
             else:
@@ -380,14 +386,15 @@ class sendEmailMessage_result(object):
     """
 
     thrift_spec = (
-        (0, TType.BOOL, 'success', None, None, ),  # 0
+        (0, TType.BOOL, 'success', None, None,),  # 0
     )
 
-    def __init__(self, success=None,):
+    def __init__(self, success=None, ):
         self.success = success
 
     def read(self, iprot):
-        if iprot._fast_decode is not None and isinstance(iprot.trans, TTransport.CReadableTransport) and self.thrift_spec is not None:
+        if iprot._fast_decode is not None and isinstance(iprot.trans,
+                                                         TTransport.CReadableTransport) and self.thrift_spec is not None:
             iprot._fast_decode(self, iprot, (self.__class__, self.thrift_spec))
             return
         iprot.readStructBegin()

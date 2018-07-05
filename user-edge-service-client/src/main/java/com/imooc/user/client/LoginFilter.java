@@ -67,7 +67,7 @@ public abstract class LoginFilter implements Filter {
         }
 
         if(userDTO==null) {
-            response.sendRedirect("http://www.mooc.com/user/login");
+            response.sendRedirect("http://192.168.135.179/user/login");
             return;
         }
 

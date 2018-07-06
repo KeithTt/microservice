@@ -1,7 +1,7 @@
 version: "3.4"
 services:
   message-service:
-    image: hub.mooc.com:8080/micro-service/message-service:latest
+    image: keithtt/message-service:latest
     deploy:
       endpoint_mode: dnsrr
       resources:
@@ -10,7 +10,7 @@ services:
           memory: "128M"
 
   user-service:
-    image: hub.mooc.com:8080/micro-service/user-service:latest
+    image: keithtt/user-service:latest
     deploy:
       endpoint_mode: dnsrr
       resources:
@@ -19,7 +19,7 @@ services:
           memory: "512M"
 
   user-edge-service:
-    image: hub.mooc.com:8080/micro-service/user-edge-service:latest
+    image: keithtt/user-edge-service:latest
     deploy:
       endpoint_mode: vip
       resources:
@@ -33,7 +33,7 @@ services:
       - message-service
 
   course-service:
-    image: hub.mooc.com:8080/micro-service/course-service:latest
+    image: keithtt/course-service:latest
     deploy:
       endpoint_mode: dnsrr
       resources:
@@ -44,7 +44,7 @@ services:
       - user-service
 
   course-edge-service:
-    image: hub.mooc.com:8080/micro-service/course-edge-service:latest
+    image: keithtt/course-edge-service:latest
     deploy:
       endpoint_mode: vip
       resources:
@@ -55,8 +55,9 @@ services:
       - "8081:8081"
     depends_on:
       - user-edge-service
+
   api-gateway:
-    image: hub.mooc.com:8080/micro-service/api-gateway-zuul:latest
+    image: keithtt/api-gateway-zuul:latest
     deploy:
       endpoint_mode: vip
       resources:

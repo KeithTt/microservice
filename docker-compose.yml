@@ -1,10 +1,4 @@
 version: '3'
-
-networks:
-  default:
-    external:
-      name: imooc-network
-
 services:
   message-service:
     image: message-service:latest
@@ -12,7 +6,7 @@ services:
   user-service:
     image: user-service:latest
     command:
-    - "--mysql.address=172.19.0.2"
+    - "--mysql.address=192.168.135.179"
 
   user-edge-service:
     image: user-edge-service:latest
@@ -20,22 +14,22 @@ services:
     - user-service
     - message-service
     command:
-    - "--redis.address=172.19.0.3"
+    - "--redis.address=192.168.135.179"
 
   course-service:
     image: course-service:latest
     links:
     - user-service
     command:
-    - "--mysql.address=172.19.0.2"
-    - "--zookeeper.address=172.19.0.4"
+    - "--mysql.address=192.168.135.179"
+    - "--zookeeper.address=192.168.135.179"
 
   course-edge-service:
     image: course-edge-service:latest
     links:
     - user-edge-service
     command:
-    - "--zookeeper.address=172.19.0.4"
+    - "--zookeeper.address=192.168.135.179"
 
   api-gateway-zuul:
     image: api-gateway-zuul:latest
@@ -44,3 +38,8 @@ services:
     - user-edge-service
     ports:
     - 8080:8080
+
+networks:
+  default:
+    external:
+      name: imooc-network

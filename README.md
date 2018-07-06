@@ -76,7 +76,7 @@ https://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-sou
 
 运行数据库
 ```
-docker run -d --name mysql -v ${cur_dir}/conf:/etc/mysql/conf.d -v ${cur_dir}/data:/var/lib/mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=aA111111 --restart always mysql:5.7
+docker run -d --name mysql -v `pwd`/conf:/etc/mysql/conf.d -v `pwd`/data:/var/lib/mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=aA111111 --restart always mysql:5.7
 ```
 
 ```

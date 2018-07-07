@@ -103,3 +103,20 @@ docker run -d --name zookeeper -p 2181:2181 --restart always zookeeper:3.5
 ```
 jar -tf xx.jar
 ```
+
+## CICD
+
+安装启动jenkins
+
+安装所有pipline插件
+
+构建一个pipline项目 user-edge-service
+
+构建触发器
+- 自定义一个token，比如：123456
+- 用于远程触发的地址： JENKINS_URL/job/user-edge-service/build?token=TOKEN_NAME 这个地址给git的webhook使用
+
+编写pipline脚本
+
+修改jenkins的安全设置，取消CSRF保护，从git访问jenkins是跨站点请求
+勾选 Allow anonymous read access

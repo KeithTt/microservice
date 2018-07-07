@@ -64,6 +64,20 @@
 - Thrift（Apache）：跨语言，没有服务治理
 - Grpc（Google）：跨语言，没有服务治理
 
+| RPC对比 | Dubbo | Motans | Thrift | Grpc |
+| - | :-: | :-: | :-: | :-: |
+| 开发语言 | Java | Java | 跨语言 | 跨语言 |
+| 服务治理 | √ | √ | × | x |
+| 多种序列化 | √ | √ | 只支持thrift | 只支持protobuf |
+| 多种注册中心 | √ | √ | x | x |
+| 管理中心 | √ | √ | x | x |
+| 跨语言通信 | x | x | √ | √ |
+| 整体性能 | 3 | 4 | 5 | 3 |
+
+## 服务发现
+- 客户端发现：服务端向注册中心注册，客户端从注册中心获取服务接口
+- 服务端发现
+
 ## SpringBoot的使命
 - 化繁为简
 
@@ -139,10 +153,6 @@ server = TServer.TSimpleServer(processor, transport, tfactory, pfactory)
 ```
 sudo pip2 install thrift --upgrade --ignore-installed six
 ```
-
-https://maven.apache.org/plugins/maven-compiler-plugin/usage.html
-
-https://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-source-and-target.html
 
 ## 运行数据库
 ```

@@ -2,32 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f34af68-c1fd-4a37-ae4a-15057db7bed0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Architecture.png" beforeDir="false" afterPath="$PROJECT_DIR$/Architecture.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zuul/api-gateway-zuul.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/course-dubbo-service-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-dubbo-service/course-dubbo-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-dubbo-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-edge-service/course-edge-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-edge-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course-edge-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-python-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-python-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-python-service/message/api/MessageService-remote" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-python-service/message/api/MessageService-remote" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-python-service/message/api/MessageService.py" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-python-service/message/api/MessageService.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-python-service/message/message_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-python-service/message/message_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-python-service/thrift/gen-code.sh" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-python-service/thrift/gen-code.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/message-thrift-service-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-zuul/api-gateway-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/api-gateway-zuul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-zuul/src/main/main3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/course-dubbo-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service-api/course-dubbo-service-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/src/main/main4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/target/classes/com/imooc/course/dto/CourseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/classes/com/imooc/course/dto/CourseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/target/classes/com/imooc/course/service/ICourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/classes/com/imooc/course/service/ICourseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/target/course-dubbo-service-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/course-dubbo-service-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-dubbo-service/course-dubbo-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service/course-dubbo-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-dubbo-service/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-edge-service/course-edge-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/course-edge-service/course-edge-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-edge-service/src/main/main5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-python-service/.idea/message-thrift-python-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/message-thrift-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/message-thrift-service-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/src/main/main6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$AsyncProcessor$sendEmailMessage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$AsyncProcessor$sendEmailMessage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$AsyncProcessor$sendMobileMessage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$AsyncProcessor$sendMobileMessage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args$sendEmailMessage_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args$sendEmailMessage_argsStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args$sendEmailMessage_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args$sendEmailMessage_argsTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result$sendEmailMessage_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result$sendEmailMessage_resultStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result$sendEmailMessage_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result$sendEmailMessage_resultTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args$sendMobileMessage_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args$sendMobileMessage_argsStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args$sendMobileMessage_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args$sendMobileMessage_argsTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result$sendMobileMessage_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result$sendMobileMessage_resultStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result$sendMobileMessage_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result$sendMobileMessage_resultTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/message-thrift-service-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/message-thrift-service-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-edge-service-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service-client/user-edge-service-client.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/src/main/java/com/imooc/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/src/main/java/com/imooc/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/user-edge-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/user-thrift-service-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/user-thrift-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-edge-service-client/src/main/main8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-edge-service-client/target/classes/com/imooc/user/client/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service-client/target/classes/com/imooc/user/client/LoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-edge-service-client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service-client/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-edge-service-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-edge-service-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-edge-service-client/target/user-edge-service-client-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service-client/target/user-edge-service-client-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-edge-service-client/user-edge-service-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service-client/user-edge-service-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-edge-service/src/main/main1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-edge-service/user-edge-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/user-edge-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/src/main/main7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$UserInfoStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$UserInfoStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$UserInfoTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$UserInfoTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$getTeacherById$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$getTeacherById$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$getUserById$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$getUserById$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$getUserByName$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$getUserByName$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$regiserUser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$regiserUser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args$getTeacherById_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args$getTeacherById_argsStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args$getTeacherById_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args$getTeacherById_argsTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result$getTeacherById_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result$getTeacherById_resultStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result$getTeacherById_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result$getTeacherById_resultTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args$getUserById_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args$getUserById_argsStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args$getUserById_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args$getUserById_argsTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result$getUserById_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result$getUserById_resultStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result$getUserById_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result$getUserById_resultTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args$getUserByName_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args$getUserByName_argsStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args$getUserByName_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args$getUserByName_argsTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result$getUserByName_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result$getUserByName_resultStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result$getUserByName_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result$getUserByName_resultTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args$regiserUser_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args$regiserUser_argsStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args$regiserUser_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args$regiserUser_argsTupleScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_result$_Fields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_result$regiserUser_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_result$regiserUser_resultStandardScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/user-thrift-service-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/user-thrift-service-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/user-thrift-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/user-thrift-service-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/main2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/user-thrift-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service/user-thrift-service.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/course-edge-service/target/" />
     <ignored path="$PROJECT_DIR$/course-dubbo-service-api/target/" />
@@ -47,83 +122,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="message_service.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/message-thrift-python-service/message/message_service.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-              <folding>
-                <element signature="e#17#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/message-thrift-python-service/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-thrift-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="64" column="65" lean-forward="true" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-thrift-service-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/message-thrift-service-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/course-dubbo-service/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -138,12 +137,14 @@
         <option value="$PROJECT_DIR$/user-edge-service/src/main/java/com/imooc/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/course-edge-service/pom.xml" />
         <option value="$PROJECT_DIR$/user-edge-service/pom.xml" />
-        <option value="$PROJECT_DIR$/user-edge-service-client/pom.xml" />
         <option value="$PROJECT_DIR$/course-dubbo-service/pom.xml" />
         <option value="$PROJECT_DIR$/api-gateway-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/user-thrift-service/pom.xml" />
         <option value="$PROJECT_DIR$/message-thrift-python-service/Dockerfile" />
+        <option value="$PROJECT_DIR$/user-edge-service-client/user-edge-service-client.iml" />
+        <option value="$PROJECT_DIR$/user-edge-service-client/pom.xml" />
+        <option value="$PROJECT_DIR$/course-dubbo-service-api/pom.xml" />
       </list>
     </option>
   </component>
@@ -158,6 +159,24 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="course-dubbo-service-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="course-dubbo-service-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="message-thrift-service-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="message-thrift-service-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="user-edge-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -167,21 +186,37 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="user-edge-service-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="user-edge-service-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="user-edge-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="user-thrift-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="user-edge-service-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="user-thrift-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="user-edge-service-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="user-thrift-service-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="user-thrift-service-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="user-thrift-service-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="user-thrift-service-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.thrift:libthrift:0.10.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -204,6 +239,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,161 +251,13 @@
             <path>
               <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="course-dubbo-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="course-dubbo-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="course-dubbo-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="course-dubbo-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="course-dubbo-service-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="course-dubbo-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="course-dubbo-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="course-dubbo-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="course-dubbo-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="message-thrift-python-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="message-thrift-python-service" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="message-thrift-service-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="message-thrift-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="message-thrift-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="message-thrift-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="message-thrift-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="user-thrift-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="user-thrift-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="user-thrift-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="user-thrift-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
@@ -380,18 +269,22 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32873562" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.flask.configuration.FlaskConfigurable" />
@@ -543,16 +436,16 @@
       <updated>1530731414064</updated>
       <workItem from="1530731416064" duration="2845000" />
       <workItem from="1530765315145" duration="2913000" />
-      <workItem from="1530768400213" duration="12644000" />
+      <workItem from="1530768400213" duration="14091000" />
+      <workItem from="1530957731287" duration="373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18402000" />
+    <option name="totallyTimeSpent" value="20222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-282" y="-1080" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50069445" side_tool="true" weight="0.3280318" />
@@ -573,10 +466,10 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run Dashboard" order="7" sideWeight="0.49930555" weight="0.32933334" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32902583" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21769384" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Learn" order="2" />
@@ -585,6 +478,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
       <window_info anchor="right" id="Jenkins" order="3" />
+      <window_info anchor="right" id="JSON Viewer" order="3" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -592,12 +486,11 @@
       <window_info anchor="right" id="Key Promoter X" order="3" />
       <window_info anchor="right" id="LuaJ" order="3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32933334" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="JSON Utils" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="JSON Viewer" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,23 +505,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user-thrift-service-api/thrift/gen-code.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-thrift-service-api/thrift/user_service.thrift">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-thrift-service-api/src/main/java/com/imooc/thrift/user/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-thrift-service-api/src/main/java/com/imooc/thrift/user/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -650,9 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,9 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,9 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,9 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,9 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,13 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-edge-service-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
@@ -861,9 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,6 +738,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/course-dubbo-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user-thrift-service-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -897,52 +769,52 @@
     <entry file="file://$PROJECT_DIR$/user-thrift-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
-          <caret line="64" column="65" lean-forward="true" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
+          <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/message-thrift-python-service/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-dubbo-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/message-thrift-python-service/message/message_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-          <folding>
-            <element signature="e#17#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service-client/src/main/main8.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/message-thrift-service-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="495">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/user-edge-service-client/user-edge-service-client.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-dubbo-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="30">
+          <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
         </state>
       </provider>
     </entry>

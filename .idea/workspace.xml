@@ -1,109 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f34af68-c1fd-4a37-ae4a-15057db7bed0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zuul/api-gateway-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/api-gateway-zuul.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-zuul/src/main/main3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/course-dubbo-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service-api/course-dubbo-service-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/src/main/main4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/target/classes/com/imooc/course/dto/CourseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/classes/com/imooc/course/dto/CourseDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/target/classes/com/imooc/course/service/ICourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/classes/com/imooc/course/service/ICourseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/target/course-dubbo-service-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/course-dubbo-service-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-dubbo-service/course-dubbo-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service/course-dubbo-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-dubbo-service/src/main/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-edge-service/course-edge-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/course-edge-service/course-edge-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-edge-service/src/main/main5.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-python-service/.idea/message-thrift-python-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/message-thrift-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/message-thrift-service-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/src/main/main6.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$AsyncProcessor$sendEmailMessage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$AsyncProcessor$sendEmailMessage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$AsyncProcessor$sendMobileMessage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$AsyncProcessor$sendMobileMessage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args$sendEmailMessage_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args$sendEmailMessage_argsStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args$sendEmailMessage_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args$sendEmailMessage_argsTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_args.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result$sendEmailMessage_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result$sendEmailMessage_resultStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result$sendEmailMessage_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result$sendEmailMessage_resultTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendEmailMessage_result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args$sendMobileMessage_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args$sendMobileMessage_argsStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args$sendMobileMessage_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args$sendMobileMessage_argsTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_args.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result$sendMobileMessage_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result$sendMobileMessage_resultStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result$sendMobileMessage_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result$sendMobileMessage_resultTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService$sendMobileMessage_result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/imooc/thrift/message/MessageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/target/message-thrift-service-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/target/message-thrift-service-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/micro-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service-client/src/main/main8.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service-client/target/classes/com/imooc/user/client/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service-client/target/classes/com/imooc/user/client/LoginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service-client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service-client/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service-client/target/user-edge-service-client-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service-client/target/user-edge-service-client-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service-client/user-edge-service-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service-client/user-edge-service-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/src/main/main1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/user-edge-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/user-edge-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/src/main/main7.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$UserInfoStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$UserInfoStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$UserInfoTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$UserInfoTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$getTeacherById$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$getTeacherById$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$getUserById$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$getUserById$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$getUserByName$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$getUserByName$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$regiserUser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$AsyncProcessor$regiserUser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args$getTeacherById_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args$getTeacherById_argsStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args$getTeacherById_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args$getTeacherById_argsTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_args.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result$getTeacherById_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result$getTeacherById_resultStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result$getTeacherById_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result$getTeacherById_resultTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getTeacherById_result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args$getUserById_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args$getUserById_argsStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args$getUserById_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args$getUserById_argsTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_args.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result$getUserById_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result$getUserById_resultStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result$getUserById_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result$getUserById_resultTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserById_result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args$getUserByName_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args$getUserByName_argsStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args$getUserByName_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args$getUserByName_argsTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_args.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result$getUserByName_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result$getUserByName_resultStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result$getUserByName_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result$getUserByName_resultTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$getUserByName_result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args$regiserUser_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args$regiserUser_argsStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args$regiserUser_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args$regiserUser_argsTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_args.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_result$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_result$regiserUser_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_result$regiserUser_resultStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService$regiserUser_result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/imooc/thrift/user/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/user-thrift-service-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/user-thrift-service-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/user-thrift-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/user-thrift-service-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/main2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/user-thrift-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service/user-thrift-service.iml" afterDir="false" />
-    </list>
+    <list default="true" id="2f34af68-c1fd-4a37-ae4a-15057db7bed0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/course-edge-service/target/" />
     <ignored path="$PROJECT_DIR$/course-dubbo-service-api/target/" />
     <ignored path="$PROJECT_DIR$/user-edge-service-client/target/" />
@@ -122,7 +20,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-thrift-service-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jenkinsfile.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Jenkinsfile.groovy">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -437,15 +350,16 @@
       <workItem from="1530731416064" duration="2845000" />
       <workItem from="1530765315145" duration="2913000" />
       <workItem from="1530768400213" duration="14091000" />
-      <workItem from="1530957731287" duration="373000" />
+      <workItem from="1530957731287" duration="735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20222000" />
+    <option name="totallyTimeSpent" value="20584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-282" y="-1080" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50069445" side_tool="true" weight="0.3280318" />
@@ -466,10 +380,10 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run Dashboard" order="7" sideWeight="0.49930555" weight="0.32933334" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21769384" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21769384" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2078125" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Learn" order="2" />
@@ -505,13 +419,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user-thrift-service-api/src/main/java/com/imooc/thrift/user/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-thrift-service/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -759,13 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-thrift-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-thrift-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -817,6 +717,16 @@
           <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

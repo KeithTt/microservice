@@ -1,7 +1,0 @@
-*.gitignnore
-.idea
-.project
-.settings
-*target
-*.iml
-*.jar

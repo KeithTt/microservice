@@ -1,5 +1,4 @@
-*.gitingore
-*.jar
+.gitignore
 *.iml
 *.settings
 /.idea/

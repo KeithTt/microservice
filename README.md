@@ -141,6 +141,7 @@
 - 项目的入口
 - 封装内部的系统架构，对外提供RestAPI
 - 可以提供附加功能，如监控、缓存、路由、负载均衡、权限控制等
+
 ![](ApiGateway.png)
 
 - 定义监听端口
@@ -194,12 +195,12 @@ jar -tf xx.jar
 #### CICD
 
 - 安装启动jenkins
-- 安装所有pipline插件
-- 构建一个pipline项目 user-edge-service
+- 安装所有pipeline插件
+- 构建一个pipeline项目 user-edge-service
 - 构建触发器
   \- 自定义一个token，比如：123456
   \- 用于远程触发的地址： JENKINS_URL/job/user-edge-service/build?token=TOKEN_NAME 这个地址给git的webhook使用
-- 编写pipline脚本
+- 编写pipeline脚本
 - 修改jenkins的安全设置
   \- 取消CSRF保护，从git访问jenkins是跨站点请求
   \- 勾选 Allow anonymous read access

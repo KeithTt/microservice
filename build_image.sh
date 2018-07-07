@@ -6,7 +6,7 @@ GIT_VERISON=%(git log -1 --pretty=format:"%h")
 IMAGE_NAME=keithtt/${MODULE}:${TIME}_${GIT_VERISON}
 
 cd ${MODULE}
-docker build -t ${IMAGE_NAME}
+docker build -t ${IMAGE_NAME} .
 
 cd -
 docker push ${IMAGE_NAME}

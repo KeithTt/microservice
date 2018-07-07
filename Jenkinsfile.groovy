@@ -6,6 +6,7 @@ pipeline {
     environment {
         REPOSITORY="https://github.com/KeithTt/microservice.git"
         MODULE="user-edge-service"
+        SCRIPT_PATH="/root/scripts"
     }
 
     stages {
@@ -15,7 +16,6 @@ pipeline {
                 echo "start fetch code from git:${REPOSITORY}"
                 deleteDir()
                 git "$REPOSITORY"
-                SCRIPT_PATH="/root/scripts"
             }
         }
 

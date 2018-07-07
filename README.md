@@ -192,6 +192,9 @@ jar -tf xx.jar
 ---
 
 #### CICD
+
+![](CICD.png)
+
 ```
 - 安装启动jenkins
 - 安装所有pipeline插件

@@ -193,14 +193,15 @@ jar -tf xx.jar
 ---
 
 #### CICD
-
+```
 - 安装启动jenkins
 - 安装所有pipeline插件
 - 构建一个pipeline项目 user-edge-service
 - 构建触发器
-  \- 自定义一个token，比如：123456
-  \- 用于远程触发的地址： JENKINS_URL/job/user-edge-service/build?token=TOKEN_NAME 这个地址给git的webhook使用
+  a、自定义一个token，比如：123456
+  b、用于远程触发的地址： JENKINS_URL/job/user-edge-service/build?token=TOKEN_NAME 这个地址给git的webhook使用
 - 编写pipeline脚本
 - 修改jenkins的安全设置
-  \- 取消CSRF保护，从git访问jenkins是跨站点请求
-  \- 勾选 Allow anonymous read access
+  a、取消CSRF保护，从git访问jenkins是跨站点请求
+  b、勾选 Allow anonymous read access
+```

@@ -61,7 +61,7 @@
 - Dubbo（阿里）/Dubbox（当当）：有服务治理，默认使用python进行序列化，只支持JAVA
 - Motan（新浪微博）：有服务治理，使用python进行序列化，只支持JAVA
 - Thrift（Apache）：跨语言，没有服务治理
-- GRPC（Google）：跨语言，没有服务治理
+- GRPC（Google）：跨语言，没有服务治理，HTTP2
 
 | RPC对比 | Dubbo | Motans | Thrift | GRPC |
 | - | :-: | :-: | :-: | :-: |

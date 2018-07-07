@@ -46,7 +46,6 @@
 | 异步 | 通知/请求异步相应 | 发布订阅/发布异步相应 |
 
 **从通讯协议角度考虑**
-- Socket
 - RestAPI
 - MQ
 - RPC：dubbo、motan、GRPC、thrift

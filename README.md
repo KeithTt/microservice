@@ -55,7 +55,7 @@
 - 线程调度模型：长连接/短连接
 - 序列化方式：可读的（xml、json）/二进制
 - 多语言支持
-- 服务治理（集群的部署、服务的高可用）
+- 服务治理：集群的部署、服务的高可用等
 
 **流行的RPC框架**
 - Dubbo（阿里）/Dubbox（当当）：有服务治理，默认使用python进行序列化，只支持JAVA
@@ -92,9 +92,9 @@
 - Java开发微服务的润滑剂
 
 #### SpringCloud的使命
+- 简化java的分布式系统、基础设施的开发，风格统一
 - 简化Java的分布式系统：统一的配置管理、服务的注册、服务的发现、服务之间的调用、负载均衡、全局锁、分布式session等
 - 一系列框架的集合
-- 简化java的分布式系统、基础设施的开发，风格统一
 - SpringBoot的封装，基于SpringBoot的分布式开发工具
 
 #### SpringCloud VS SpringBoot
@@ -195,15 +195,18 @@ jar -tf xx.jar
 
 ![](CICD.png)
 
-```
-- 安装启动jenkins
-- 安装所有pipeline插件
-- 构建一个pipeline项目 user-edge-service
-- 构建触发器
-  a、自定义一个token，比如：123456
-  b、用于远程触发的地址： JENKINS_URL/job/user-edge-service/build?token=TOKEN_NAME 这个地址给git的webhook使用
-- 编写pipeline脚本
-- 修改jenkins的安全设置
-  a、取消CSRF保护，从git访问jenkins是跨站点请求
-  b、勾选 Allow anonymous read access
-```
+1、安装启动jenkins
+
+2、安装所有pipeline插件
+
+3、构建一个pipeline项目 user-edge-service
+
+4、构建触发器
+- 自定义一个token，比如：123456
+- 用于远程触发的地址： JENKINS_URL/job/user-edge-service/build?token=TOKEN_NAME 这个地址给git的webhook使用
+
+5、编写[pipeline脚本](Jenkinsfile.groovy)
+
+6、修改jenkins的安全设置
+- 取消CSRF保护，从git访问jenkins是跨站点请求
+- 勾选 Allow anonymous read access

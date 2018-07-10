@@ -1,6 +1,6 @@
 FROM keithtt/python-thrift:3.6
 
-MAINTAINER KeithTt
+LABEL maintainer="KeithTt"
 
 ENV PYTHONPATH /
 

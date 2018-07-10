@@ -1,5 +1,5 @@
 FROM openjdk:7-jre
-MAINTAINER KeithTt
+LABEL maintainer="KeithTt"
 
 COPY target/course-edge-service-1.0-SNAPSHOT.jar /course-edge-service.jar
 

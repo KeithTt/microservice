@@ -1,5 +1,5 @@
 FROM openjdk:7-jre
-MAINTAINER KeithTt
+LABEL maintainer="KeithTt"
 
 COPY target/api-gateway-zuul-1.0-SNAPSHOT.jar /api-gateway-zuul.jar
 
